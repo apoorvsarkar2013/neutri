@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/apoorvsarkar2013/neutri/issues"
   },
-  "homepage": "https://github.com/apoorvsarkar2013/neutri#readme"
+  "homepage": "https://github.com/apoorvsarkar2013/neutri#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16"
+  }
 }
