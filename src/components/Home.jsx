@@ -1,5 +1,5 @@
 import React from "react";
-import homePageImage from "../../public/images/hero-phone-small.webp";
+import homePageImage from "../../public/images/home.png";
 import { Link } from "react-router";
 
 const Home = () => {
@@ -19,11 +19,11 @@ const Home = () => {
           </button>
         </Link>
       </div>
-      <div className='flex'>
+      <div className='flex ml-36'>
         <img
-          className='w-[250px] h-auto rounded-xl shadow-lg'
+          className='w-[400px] h-auto rounded-xl shadow-lg'
           src={homePageImage}
-          alt={homePageImage}
+          alt='home-page-image'
         />
       </div>
     </div>
