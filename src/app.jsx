@@ -1,11 +1,12 @@
 import React from "react";
+import AppRoutes from "./router";
 
-const AppLayout = () => {
+const App = () => {
   return (
     <div>
-      <h1>React JS</h1>
+      <AppRoutes />
     </div>
   );
 };
 
-export default AppLayout;
+export default App;
